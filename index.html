@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Halo Survey Form</title> 
         <!-- <link rel="icon" href="images/favicon.ico"> -->
         <link rel="stylesheet" href="styles/style.css">
@@ -14,6 +14,126 @@
         <div id="title">
             <h1>Halo Survey Form</h1>
             <p>Thank you for taking the time to help us improve our games!</p>
+        </div>
+        <div id="all-questions-div"> 
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>Name</p>
+                </div>
+                <div class="answer-div">
+                    <input type="text" class="textbox">
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>Email</p>
+                </div>
+                <div class="answer-div">
+                    <input type="text" class="textbox">
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>Age (Optional)</p>
+                </div>
+                <div class="answer-div">
+                    <input type="number" min="13" max="99" class="textbox" placeholder="18">
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>What is your favorite halo?</p>
+                </div>
+                <div class="answer-div">
+                    <select id="dropdown" name="favorite-halo" class="textbox" required>
+                        <option disabled selected value>Select favorite game</option>
+                        <option value="halo-1"> Halo 1</option>
+                        <option value="halo-2"> Halo 2</option>
+                        <option value="halo-3">Halo 3</option>
+                        <option value="halo-reach">Halo Reach</option>
+                        <option value="halo-mcc">Halo MCC</option>
+                        <option value="halo-5">Halo 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>Would you recommend a halo game to a friend?</p>
+                </div>
+                <div class="answer-div">
+                    <label>
+                        <input name="user-recommend" value="definetely" type="radio" class="input-radio" checked>
+                        Definetely
+                    </label>
+                    <label>
+                        <input name="user-recommend" value="maybe" type="radio" class="input-radio">
+                        Maybe
+                    </label>
+                    <label>
+                        <input name="user-recommend" value="not-sure" type="radio" class="input-radio">
+                        Not sure
+                    </label>
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>What is your least favorite halo?</p>
+                </div>
+                <div class="answer-div">
+                    <select id="dropdown" name="favorite-halo" class="textbox" required>
+                        <option disabled selected value>Select least favorite game</option>
+                        <!-- <option value="halo-1"> Halo 1</option>
+                        <option value="halo-2"> Halo 2</option>
+                        <option value="halo-3">Halo 3</option> -->
+                        <option value="halo-reach">Halo 4</option>
+                        <!-- <option value="halo-mcc">Halo MCC</option> -->
+                        <option value="halo-5">Halo 5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>What games have you played?</p>
+                </div>
+                <div class="answer-div">
+                    <label>
+                        <input name="played" value="halo-1" type="checkbox">
+                        Halo 1
+                    </label>
+                    <label>
+                        <input name="played" value="halo-2" type="checkbox">
+                        Halo 2
+                    </label>
+                    <label>
+                        <input name="played" value="halo-3" type="checkbox">
+                        Halo 3
+                    </label>
+                    <label>
+                        <input name="played" value="halo-reach" type="checkbox">
+                        Halo Reach
+                    </label>
+                    <label>
+                        <input name="played" value="halo-4" type="checkbox">
+                        Halo 4
+                    </label>
+                    <label>
+                        <input name="played" value="halo-mcc" type="checkbox">
+                        Halo MCC
+                    </label>
+                    <label>
+                        <input name="played" value="halo-5" type="checkbox">
+                        Halo 5
+                    </label>
+                </div>
+            </div>
+            <div class="question-box-div"> 
+                <div class="question-div">
+                    <p>Any comments or suggestions?</p>
+                </div>
+                <div class="answer-div">
+                    <textarea id="comments" name="comment" placeholder="Enter your comment here"></textarea>
+                </div>
+            </div>
         </div>
     </body>
 </html>
