@@ -9,6 +9,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     color: rgb(243,243,243);
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -19,7 +20,6 @@ h1 {
     text-align: center;
     line-height: 45px;
     margin: 50px auto;
-    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
 
@@ -36,7 +36,7 @@ h1 {
 
 .question-div {
     background-color: rgba(70, 70, 70, .5);
-    font-size: 24px;
+    font-size: 21px;
     border-radius: 5px 5px 0 0px;
     padding: 3px 10px;
 }
@@ -58,16 +58,28 @@ h1 {
 
 label {
     margin: 10px 0;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 select {
     min-height: 2rem;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 textarea {
     width: 600px;
     height: 200px;
-    font-size: 19px;
+    font-size: 17px;
+}
+
+button {
+    background-color: rgb(50, 205, 50);
+    border: none;
+    color: white;
+    padding: 12px 285px;
+    border-radius: 2px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-bottom: 70px;
+
 }
