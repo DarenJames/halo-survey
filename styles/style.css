@@ -83,3 +83,49 @@ button {
     margin-bottom: 70px;
 
 }
+
+@media only screen and (max-width: 700px) {
+    .question-box-div {
+        width: 500px;
+    }
+
+    .textbox {
+        width: 475px;
+    }
+
+    textarea {
+        width: 475px;
+    }
+
+    button {
+        padding: 12px 220px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .question-box-div {
+        width: 300px;
+    }
+
+    .textbox {
+        width: 275px;
+    }
+
+    textarea {
+        width: 275px;
+    }
+
+    button {
+        padding: 12px 110px;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        line-height: 40px;
+    }
+
+    #title {
+        line-height: 30px;
+        padding: 0px 15px
+    }
+}
